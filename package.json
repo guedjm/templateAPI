@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template project for rest API",
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "DEBUG=server:* node ./bin/server.js",
     "test": "node_modules/.bin/mocha test/"
   },
   "dependencies": {

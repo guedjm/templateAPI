@@ -1,6 +1,6 @@
-var log = require('debug')('v2:log');
-var err = require('debug')('v2:error');
-var debug = require('debug')('v2:debug');
+var log = require('debug')('server:log');
+var err = require('debug')('server:error');
+var debug = require('debug')('server:debug');
 var config = require('../config.js');
 
 /**
